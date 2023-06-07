@@ -1,0 +1,8 @@
+.home-page .navbar .form-control {
+  border: none;
+}
+
+.input-group.header-search {
+  display: flex;
+  align-items: center;
+}

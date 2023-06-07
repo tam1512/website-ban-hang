@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiki - Mua hàng online</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="css/myBootrap.css" />
+    <link rel="stylesheet" href="css/home.css" />
+  </head>
+  <body>
+    <div class="home-page bg-light">
+      <!-- Header -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img
+              src="img/icon/logo.png"
+              alt="Tiki"
+              width="57"
+              height="40"
+              class="d-inline-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <form action="" class="form-inline">
+            <div class="input-group border rounded bg-white align-items-center">
+              <img
+                class="search-icon"
+                src="img/icon/search.png"
+                alt="icon-search"
+                width="20"
+                height="20"
+              />
+              <input
+                class="form-control border-0"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn my-2 my-sm-0">Tìm kiếm</button>
+            </div>
+          </form>
+          <div class="header-user collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link home-icon">
+                  <img
+                    src="img/icon/home-active.png"
+                    alt=""
+                    width="24"
+                    height="24"
+                  />
+                  Trang chủ
+                </a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown-account">
+                  <a href="#" class="nav-link user-icon">
+                    <img
+                      src="img/icon/user.png"
+                      alt=""
+                      width="24"
+                      height="24"
+                    />
+                    Tài khoản
+                  </a>
+                  <div class="dropdown-menu-account">
+                    <a href="#" class="menu-item">Thông tin tài khoản</a>
+                    <a href="#" class="menu-item">Đơn hàng của tôi</a>
+                    <a href="#" class="menu-item">Đăng xuất</a>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link cart-icon">
+                  <img src="img/icon/cart.png" alt="" width="24" height="24" />
+                  <span class="quantity-product-cart">0</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- body -->
+      <div class="container-fluid bg-light">
+        <div class="row">
+          <!-- Sidebar -->
+          <div class="col-md-2 d-none d-md-block sidebar home-sidebar bg-light">
+            <div class="sidebar-sticky bg-white rounded">
+              <h5
+                class="sidebar-heading d-flex justify-content-between align-items-center mt-2 mb-1 ml-2 text-muted"
+              >
+                Danh mục
+              </h5>
+              <ul class="nav flex-column mt-3">
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+                <li class="nav-item rounded">
+                  <a href="#" class="nav-link text-dark">
+                    <img
+                      src="img/category/dochoi-me&be.png"
+                      width="32"
+                      height="32"
+                      alt=""
+                    />
+                    Đồ chơi - Mẹ & Bé</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Main content -->
+          <main role="main" class="col-md-10 ml-sm-auto col-lg-10 px-4">
+            <!-- Slider -->
+            <div class="row">
+              <div
+                id="carouselIndicators"
+                class="carousel slide col-md-9 col-lg-9"
+                data-ride="carousel"
+              >
+                <!-- Caeousel (thanh truoc) -->
+                <ol class="carousel-indicators">
+                  <li
+                    data-target="#carouselIndicators"
+                    data-slide-to="0"
+                    class="active"
+                  ></li>
+                  <li data-target="#carouselIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="4"></li>
+                  <li data-target="#carouselIndicators" data-slide-to="5"></li>
+                </ol>
+                <!-- list slider -->
+                <div class="carousel-inner rounded" role="listbox">
+                  <div class="carousel-item active">
+                    <img
+                      src="img/slider/1-1.png"
+                      class="d-block img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/slider/1-2.png"
+                      class="d-block img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/slider/1.png"
+                      class="d-block img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/slider/2.png"
+                      class="d-block img-fluid"
+                      alt=""
+                    />
+                  </div>
+                  <div class="carousel-item">
+                    <img
+                      src="img/slider/3.png"
+                      class="d-block img-fluid"
+                      alt=""
+                    />
+                  </div>
+                </div>
+                <!-- prev and next -->
+                <a
+                  href="#carouselIndicators"
+                  class="carousel-control-prev"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <spna class="sr-only">Previous</spna>
+                </a>
+                <a
+                  href="#carouselIndicators"
+                  class="carousel-control-next"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <spna class="sr-only">Next</spna>
+                </a>
+              </div>
+              <div class="col-md-3 col-lg-3">
+                <img
+                  src="img/slider/right-image.png"
+                  class="img-fluid rounded"
+                  width="240"
+                  alt=""
+                />
+              </div>
+            </div>
+            <!-- List product -->
+            <div class="row mt-4">
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="col-md-2">
+                <a href="#" class="card mb-4 rounded product-item">
+                  <img
+                    class="product-img"
+                    src="img/product/iphone14ProMax.png"
+                    alt="Iphone 14 ProMax"
+                  />
+                  <div class="card-body">
+                    <p class="card-name">Apple iPhone 14 Pro Max</p>
+                    <div
+                      class="rating-sale d-flex align-items-center justify-content-between text-muted"
+                    >
+                      <div
+                        class="d-flex rating justify-content-around align-items-center"
+                      >
+                        <span class="rating-total">4.95</span>
+                        <i class="rating-icon fa-sharp fa-solid fa-star"></i>
+                      </div>
+                      <div
+                        class="d-flex sale align-items-center justify-content-between"
+                      >
+                        <span>Đã bán </span>
+                        <span class="sale-number">1000+</span>
+                      </div>
+                    </div>
+                    <div
+                      class="price-discount has-discount d-flex align-items-baseline justify-content-between"
+                    >
+                      <div class="price-discount__price">27.450.000 ₫</div>
+                      <div class="price-discount__discount">-19%</div>
+                    </div>
+                    <div
+                      class="card-location border-top d-flex align-items-center justify-content-end text-muted mt-1 pt-1"
+                    >
+                      Long An
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- btn Xem them -->
+            <div
+              class="row d-flex justify-content-center align-items-center mb-4"
+            >
+              <button
+                type="button"
+                class="btn btn-outline-primary btn-lg btn-view-more"
+              >
+                Xem Thêm
+              </button>
+            </div>
+            <!-- Footer -->
+            <footer class="footer row mt-auto py-3 bg-white">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-2">
+                    <h4 class="footer-title">Hỗ trợ khách hàng</h4>
+                    <ul class="list-unstyled">
+                      <li>
+                        Hotline:
+                        <a class="hotline" href="tel:0396371031">0396371031</a>
+                        (1000 đ/phút, 8-21h kể cả T7/CN)
+                      </li>
+                      <li><a href="#">Các câu hỏi thường gặp</a></li>
+                      <li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+                      <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                      <li><a href="#">Phương thức vận chuyển</a></li>
+                      <li><a href="#">Chính sách đổi trả</a></li>
+                      <li><a href="#">Hướng dẫn trả góp</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <h4 class="footer-title">Về Tiki</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Giới thiệu Tiki</a></li>
+                      <li><a href="#">Tiki Blog</a></li>
+                      <li><a href="#">Tuyển dụng</a></li>
+                      <li><a href="#">Chính sách bảo mật thanh toán</a></li>
+                      <li>
+                        <a href="#">Chính sách bảo mật thông tin cá nhân</a>
+                      </li>
+                      <li><a href="#">Chính sách giải quyết khiếu nại</a></li>
+                      <li><a href="#">Điều khoản sử dụng</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="footer-title">Hợp tác và liên kết</h4>
+                    <ul class="list-unstyled">
+                      <li><a href="#">Quy chế hoạt động Sàn GDTMĐT</a></li>
+                      <li><a href="#">Bán hàng cùng Tiki</a></li>
+                    </ul>
+                    <h4 class="footer-title">Chứng nhận bởi</h4>
+                    <ul
+                      class="d-flex justify-content-start align-items-center list-unstyled"
+                    >
+                      <li>
+                        <a href="#"
+                          ><img
+                            src="img/chungnhan/bo-cong-thuong-2.png"
+                            alt="Bộ công thương"
+                            width="32"
+                            height="32"
+                        /></a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><img
+                            src="img/chungnhan/bo-cong-thuong.svg"
+                            alt="Bộ công thương"
+                            height="32"
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <h4 class="footer-title">Phương thức thanh toán</h4>
+                    <div class="payment">
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/tiki.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/visa.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/paypal.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/jcb.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/atm.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/momo.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/zalo-pay.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/moca-grab.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/viettel-pay.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/vn-pay.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/direct.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                      <span class="icon">
+                        <object
+                          type="image/svg+xml"
+                          data="img/phuong-thuc-thanh-toan/tragop.svg"
+                          width="32"
+                          height="32"
+                        ></object>
+                      </span>
+                    </div>
+                    <h4 class="footer-title">Dịch vụ giao hàng</h4>
+                    <div>
+                      <span>
+                        <object
+                          type="image/svg+xml"
+                          data="img/dich-vu-giao-hang/tiki.svg"
+                          width="68"
+                          height="33"
+                        ></object>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <h4 class="footer-title">Kết nối với chúng tôi</h4>
+                    <div class="social-media">
+                      <span class="icon">
+                        <a href="#">
+                          <object
+                            data="img/social-media/facebook.svg"
+                            type="image/svg+xml"
+                          ></object>
+                        </a>
+                      </span>
+                      <span class="icon">
+                        <a href="#">
+                          <object
+                            data="img/social-media/youtube.svg"
+                            type="image/svg+xml"
+                          ></object>
+                        </a>
+                      </span>
+                      <span class="icon">
+                        <a href="#">
+                          <object
+                            data="img/social-media/zalo.svg"
+                            type="image/svg+xml"
+                          ></object>
+                        </a>
+                      </span>
+                    </div>
+                    <h4 class="footer-title">Tải ứng dụng trên điện thoại</h4>
+                    <div class="store d-flex">
+                      <img
+                        src="img/store/qrcode.png"
+                        alt="QR-code"
+                        width="80"
+                        height="80"
+                      />
+                      <div class="d-flex flex-column">
+                        <a href="#"
+                          ><img
+                            src="img/store/appstore.png"
+                            alt="App store"
+                            width="122"
+                        /></a>
+                        <a href="#"
+                          ><img
+                            src="img/store/playstore.png"
+                            alt="App store"
+                            width="122"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </footer>
+          </main>
+        </div>
+      </div>
+    </div>
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

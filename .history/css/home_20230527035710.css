@@ -1,0 +1,11 @@
+.home-page .navbar .form-control {
+  border: none;
+}
+
+.search-icon {
+  width: 40px;
+}
+
+.home-page {
+  background-color: red !important;
+}

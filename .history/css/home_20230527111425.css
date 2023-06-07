@@ -1,0 +1,134 @@
+:root {
+  --primary-color: rgb(10, 104, 255);
+}
+/* Header */
+
+/* Search */
+.home-page .navbar .form-control {
+  border: none;
+}
+
+.search-icon {
+  margin: 0 10px;
+}
+
+.input-group input.form-control:focus,
+.input-group button.btn:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.input-group:focus-within {
+  border: 1px solid var(--primary-color) !important;
+}
+.input-group button.btn:hover {
+  background-color: rgba(10, 104, 255, 0.2);
+}
+.input-group button.btn {
+  position: relative;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  color: var(--primary-color);
+}
+.input-group button.btn::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 60%;
+  top: 20%;
+  left: -1px;
+  background-color: #ccc;
+}
+
+/* Header-user */
+.active a {
+  font-weight: 600;
+  color: var(--primary-color) !important;
+}
+
+.home-icon,
+.user-icon {
+  padding: 8px 16px !important;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.cart-icon {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  margin-left: 24px;
+}
+
+.quantity-product-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -4px;
+  right: 0;
+  font-size: 14px;
+  background-color: rgb(255, 66, 79);
+  height: 16px;
+  border-radius: 8px;
+  color: white;
+  padding: 0.5px 4px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.cart-icon::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 24px;
+  left: -12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ccc;
+}
+
+.home-icon:hover,
+.user-icon:hover,
+.cart-icon:hover {
+  background-color: rgba(10, 104, 255, 0.2);
+}
+
+.home-icon img,
+.user-icon img {
+  margin-right: 4px;
+}
+
+.home-page .navbar .container .navbar-collapse {
+  flex-grow: unset;
+}
+
+.dropdown-account {
+  position: relative;
+}
+
+.dropdown-menu-account {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: calc(100% - 1px);
+  padding: 10px 0;
+  border-radius: 8px;
+  border: 1px solid rgb(239, 239, 239);
+  background-color: #fff;
+  width: 240px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.user-icon:hover ~ .dropdown-menu-account {
+  display: flex;
+}
+
+.dropdown-menu-account .menu-item {
+  padding: 8px 16px;
+}

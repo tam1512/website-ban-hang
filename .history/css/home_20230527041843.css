@@ -1,0 +1,35 @@
+:root {
+  --primary-color: rgb(10, 104, 255);
+}
+
+.home-page .navbar .form-control {
+  border: none;
+}
+
+.search-icon {
+  margin: 0 10px;
+}
+
+.input-group input.form-control:focus,
+.input-group button.btn:focus {
+  box-shadow: none;
+  border-color: transparent;
+}
+
+.input-group:focus-within {
+  border: 1px solid var(--primary-color) !important;
+}
+.input-group button.btn:hover {
+  background-color: rgba(10, 104, 255, 0.2);
+}
+.input-group button.btn {
+  position: relative;
+}
+.input-group button.btn::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 60%;
+  top: 20%;
+  background-color: #ccc;
+}

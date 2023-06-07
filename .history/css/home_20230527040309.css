@@ -1,0 +1,11 @@
+.home-page .navbar .form-control {
+  border: none;
+}
+
+.search-icon {
+  margin: 0 10px;
+}
+
+.input-group input.form-control:focus {
+  outline: none;
+}
