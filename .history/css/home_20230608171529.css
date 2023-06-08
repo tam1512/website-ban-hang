@@ -212,7 +212,7 @@
 }
 .rating .rating-icon {
   font-size: 10px;
-  color: var(--star-color);
+  color: rgb(253, 216, 54);
 }
 .price-discount {
   margin-top: 6px;

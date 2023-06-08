@@ -1,0 +1,7 @@
+.small-img-item {
+  width: 64px;
+  height: 64px;
+}
+.small-img-item img {
+  height: 100%;
+}

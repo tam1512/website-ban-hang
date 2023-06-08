@@ -1,0 +1,15 @@
+.small-img-item {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.small-img-item img {
+  height: 100%;
+  border-radius: 4px;
+}
+.small-img-item img.active {
+  border: 1px solid rgb(13, 92, 182);
+}

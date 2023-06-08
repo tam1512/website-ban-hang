@@ -1,0 +1,10 @@
+.small-img-item {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-img-item img {
+  height: 100%;
+}
